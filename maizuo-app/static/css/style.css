@@ -1,0 +1,109 @@
+#header{
+    width: 100%;
+    height: .44rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #282828;
+    line-height: .44rem;
+}
+#header .header-left{
+    float: left
+}
+#header .header-left .menu{
+    width: .5rem;
+    height: .44rem;
+    text-align: center;
+    float: left;
+    border-right: 1px solid #222;
+    box-shadow: 1px 0 1px #363636;
+}
+#header .header-left .menu span{
+    color: #999;
+}
+#header .header-left .title{
+    width: .84rem;
+    height: .44rem;
+    text-align: center;
+    float: left;
+    color: #efefef;
+    font-size: .14rem;
+}
+#header .header-right{
+    float: right;
+    color: #999;
+}
+#header .header-right .addres{
+    float: left;
+    width: .56rem;
+    height: .44rem;
+    text-align: center;
+}
+#header .header-right .addres i{
+    font-size: .1rem;
+    margin-left: .04rem;
+    font-size: .14rem;
+}
+#header .header-right .addres span{
+    font-size: .1rem;
+    margin-left: .04rem;
+}
+#header .header-right .name{
+    float: left;
+    width: .5rem;
+    height: .44rem;
+    text-align: center;
+}
+.pages{
+    height: 100%;
+}
+#content{
+    position: absolute;
+    top: .44rem;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+#tabs{
+    position: absolute;
+    top: .44rem;
+    left: 0;
+    bottom: 0;
+    right: 0; 
+    background: #fff;
+}
+#tabs .wrap{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0,0,0,0.5);  
+}
+#tabs .list{
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-top: 1px solid #222;
+    box-shadow: 0 1px 1px #363636 inset;
+    background: #282828;
+    width: 70%;
+    height: 100%;
+    z-index: 5;
+}
+#tabs .list li{
+    line-height: .5rem;
+    padding: 0 16px;
+    border-bottom: 1px dotted #333;
+    font-size: .14rem
+}
+#tabs .list li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+#tabs .list li a i{
+    float: right;
+    color: #666;
+    font-size: 12px;
+}

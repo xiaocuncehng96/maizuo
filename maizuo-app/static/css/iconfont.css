@@ -1,0 +1,21 @@
+
+@font-face {font-family: "iconfont";
+  src:  url('../font/iconfont.ttf?t=1524727080487') format('truetype') 
+}
+
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:.16rem;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-caidan:before { content: "\e667"; }
+
+.icon-wode:before { content: "\e65e"; }
+
+.icon-jiantouxia:before { content: "\e60a"; }
+
+.icon-jiantouyou:before { content: "\e603"; }
+
