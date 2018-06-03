@@ -16,6 +16,7 @@ export default class Header extends Component{
                 <div className='header-right'>
                     <div className='addres'>
                         <i>深圳</i>
+                        <span>此处修改</span>
                         <span className="iconfont icon-jiantouxia"></span>
                     </div>
                     <div className="name">
