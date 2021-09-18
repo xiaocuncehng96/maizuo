@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-// import {HashRouter,Route, Redirect} from 'react-router-dom';
+import {HashRouter,Route, Redirect} from 'react-router-dom';
 import Observer from './content/observer'
 
 import Home from './pages/home'
